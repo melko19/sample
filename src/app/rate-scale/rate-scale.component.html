@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="assets/images/bg.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt neque dolorum facere, quaerat error harum deleniti? Dolores suscipit,
+                     dolore, ut tenetur mollitia veritatis ipsum, eos accusamus sit deserunt natus iure!</p>
+
+                     <div>
+                        <span  *ngFor="let num of Array; let i = index">
+                            <span *ngIf="rate > i; else elseBlock">
+                                <button class="btn selected" (click)="onClick(i+1)"></button>
+                            </span>
+                            <ng-template #elseBlock>
+                                <button class="btn unselected" (click)="onClick(i+1)"></button>
+                            </ng-template>
+                        </span>
+                    </div>
+
+                    <h1>Rate: {{rate}} of 5</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

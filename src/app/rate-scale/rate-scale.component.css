@@ -1,0 +1,38 @@
+.card{
+    margin-left: 2rem;
+    margin-top: 9rem;
+    height: 30rem;
+    width: 75rem;
+}
+img{
+    margin-left: 2rem;
+    height:19rem;
+    margin-top: 5rem;
+}
+p{
+    margin-top: 2rem;
+    margin-left: 0.2rem;
+}
+h3{
+    margin-top: 5rem;
+    margin-left: 0.2rem;
+}
+button {
+    height: 2rem;
+    width: 2rem;
+    font-size: 1rem;
+    border-radius: 60%;
+    margin-left: 10px;
+    margin-top: 4rem;
+}
+h1{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: medium;
+}
+.unselected{
+   background-color: rgb(199, 193, 193);
+}
+.selected{
+    background: radial-gradient(circle, rgb(74, 108, 173) 10%, rgba(51,57,51,1) 87%);
+}
